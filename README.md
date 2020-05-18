@@ -2,7 +2,7 @@
 2020-05-18
 
 ### Project Title
-Explore US Bikeshare Data
+Explore US(Chicago, New York, Washington) Bikeshare Data
 
 ### Description
 In this project, you can exlpore data related to bike share systme of Chicago, New York City and Washington.

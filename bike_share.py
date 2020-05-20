@@ -178,15 +178,13 @@ def user_stats(df):
         print('Counts of user types:')
         print(df['User Type'].value_counts())
     else:
-        print('User type information is not avilable')
-    print()
+        print('User type information is not avilable.\n')
     # TO DO: Display counts of gender
     if 'Gender' in df:
         print('Counts of user gender:')
         print(df['Gender'].value_counts())
     else:
-        print('Gender information is not avilable')
-    print()
+        print('Gender information is not avilable.\n')
     # TO DO: Display earliest, most recent, and most common year of birth
     if 'Birth Year' in df:
         print('The earliest year of birth is:', int(df['Birth Year'].min()))
